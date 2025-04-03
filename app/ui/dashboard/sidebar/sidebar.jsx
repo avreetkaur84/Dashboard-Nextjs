@@ -103,6 +103,12 @@ function Sidebar() {
           </l1>
         ))}
       </ul>
+
+      <button className={styles.logout}>
+        <MdLogout/>
+        Logout
+      </button>
+
     </div>
   )
 }
