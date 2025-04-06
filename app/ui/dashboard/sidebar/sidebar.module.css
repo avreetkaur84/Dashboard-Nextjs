@@ -1,13 +1,13 @@
 .contaner {
     position: sticky;
-    top: 40px;
+    top: 20px;
 }
 
 .user {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .userImage {
@@ -41,7 +41,7 @@
 }
 
 .logout {
-    padding: 16px;
+    padding: 16px 10px;
     display: flex;
     align-items: center;
     gap: 8px;
