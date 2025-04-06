@@ -34,7 +34,7 @@ function RightBar() {
                     </h3>
                     <span className={styles.subtitle}>Boost your productivity</span>
                     <p className={styles.desc}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     </p>
                     <button className={styles.button}>
                         <MdReadMore />
