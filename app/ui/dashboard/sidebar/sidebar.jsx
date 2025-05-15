@@ -94,13 +94,13 @@ function Sidebar() {
 
       <ul className={styles.list}>
         {menuItems.map((category) => (
-          <l1 key={category.title}>
+          <li key={category.title}>
             <span className={styles.category}>{category.title}</span>
 
             {category.list.map((item) => (
               <MenuLink item={item} key={item.title}/>
             ))}
-          </l1>
+          </li>
         ))}
       </ul>
 
